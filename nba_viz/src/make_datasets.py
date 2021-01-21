@@ -4,13 +4,13 @@ import json
 import requests
 import pandas as pd 
 import datetime
+from data import teams.json as teams 
+from data import plaers.json as players 
 
 
 #Load teams file into a df from our json file
-
-teams = pd.read_json('data/teams.json')
-
-players = pd.read_json('data/players.json')
+#teams = pd.read_json('data/teams.json')
+#players = pd.read_json('data/players.json')
 
 #get the team id based on team name 
 
